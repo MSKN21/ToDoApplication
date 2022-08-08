@@ -1,0 +1,167 @@
+.navbar {
+  background-color: rgb(8, 4, 77);
+  position: fixed;
+  width: 600px;
+  height: 45px;
+  display: grid;
+  grid-template-columns: 10% 60% 30%;
+  z-index: 1;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.418);
+}
+
+.more {
+  display: grid;
+  /* background-color: white; */
+  grid-template-columns: repeat(3, 1fr);
+  height: 45px;
+}
+
+#dropdownbox {
+  background-color: rgb(22, 23, 63);
+  position: fixed;
+  float: right;
+  right: 0;
+  top: 45px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+li {
+  padding: 5px;
+  text-decoration: none;
+  list-style-type: none;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+li:hover {
+  background-color: rgb(204, 159, 255);
+  cursor: pointer;
+}
+
+#dropmaindiv {
+  height: 100vh;
+  top: 45px;
+  width: 600px;
+  position: fixed;
+  z-index: 2;
+}
+
+#searchbox {
+  background-color: rgb(8, 4, 77);
+  position: fixed;
+  top: 0;
+  width: 600px;
+  height: 45px;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  z-index: 2;
+}
+
+#selectcat {
+  font-weight: bold;
+  width: 200px;
+  border: 0;
+  font-size: 22px;
+  padding: 3px 5px;
+  border-style: solid;
+  border-bottom: 1px solid white;
+  background-color: rgb(8, 4, 77);
+  color: aliceblue;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+#selectcat:focus,
+#inpsearch:focus {
+  outline: none;
+}
+#inpsearch {
+  width: 95%;
+  border: 0;
+  font-size: 20px;
+  padding: 3px 5px;
+  border-style: solid;
+  border-bottom: 1px solid white;
+  background-color: rgb(8, 4, 77);
+  color: aliceblue;
+  margin-top: 5px;
+}
+
+#searchback {
+  color: rgb(111, 255, 130);
+  font-size: 30px;
+  margin-top: 2px;
+  padding: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#searchbackbtnin {
+  text-align: center;
+}
+
+#searchback:hover {
+  background-color: rgba(255, 255, 255, 0.774);
+  color: rgb(0, 32, 99);
+}
+
+#searchclearbtn {
+  padding: 2px 0px;
+}
+
+#clearicon {
+  color: aliceblue;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#clearicon:hover {
+  background-color: aliceblue;
+  color: rgb(14, 10, 70);
+}
+
+#doticon {
+  float: right;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 83, 120);
+  height: 33px;
+  width: 37px;
+  margin-top: 3px;
+  margin-right: 8px;
+  border-radius: 50%;
+  font-size: 23px;
+  padding-top: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#doticon:hover {
+  background-color: rgba(243, 83, 118, 0.692);
+  color: rgb(255, 255, 255);
+}
+
+#searchicon {
+  float: right;
+  color: aliceblue;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#searchicon:hover {
+  background-color: rgba(253, 253, 253, 0.698);
+  color: rgb(14, 10, 70);
+}
+
+#logo {
+  font-size: 30px;
+  color: aliceblue;
+  padding-left: 7px;
+  padding-top: 2px;
+  height: 40px;
+  width: 40px;
+}

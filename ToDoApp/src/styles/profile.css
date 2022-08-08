@@ -1,0 +1,116 @@
+#profileback {
+  margin: 0;
+  padding: 0;
+}
+
+#profilenav {
+  background-color: rgb(8, 4, 77);
+  position: fixed;
+  width: 600px;
+  height: 45px;
+  top: 0;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  z-index: 1;
+}
+
+#profiledata {
+  background-color: rgba(31, 5, 54, 0.493);
+  color: cornsilk;
+  /* text-align: center; */
+  /* height: 100vh; */
+  height: calc(100vh - 45px);
+  padding-top: 45px;
+}
+
+#profilebox {
+  margin: 15px;
+  margin-top: 0;
+  background-color: rgb(31, 5, 54);
+  border-radius: 5px;
+  top: 10%;
+  transform: translateY(10%);
+}
+
+#detailsgrid {
+  display: grid;
+  grid-template-columns: 7% 30% 63%;
+  margin: 28px 0;
+}
+
+#h4head {
+  font-size: 33px;
+  margin-top: 20px;
+}
+
+#profileicons {
+  font-size: 30px;
+  float: right;
+}
+
+#profiletitles {
+  font-size: 28px;
+  font-weight: bold;
+  float: left;
+  padding-left: 5px;
+}
+
+#profileinfo {
+  font-size: 26px;
+  font-style: italic;
+  float: left;
+}
+
+#signoutbtn {
+  background-color: rgb(0, 116, 145);
+  cursor: pointer;
+  border: none;
+  width: 380px;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 3px;
+  color: aliceblue;
+  font-size: 22px;
+}
+
+#signoutbtn:hover {
+  background-color: rgba(0, 116, 145, 0.842);
+}
+
+#outbtn {
+  text-align: center;
+}
+
+#imgbox {
+  text-align: center;
+}
+
+#imagepro {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: blanchedalmond;
+  margin: 20px;
+}
+
+#backicon {
+  font-size: 30px;
+  color: wheat;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+#backicon:hover {
+  background-color: rgba(66, 255, 246, 0.89);
+  color: rgb(48, 2, 92);
+}
+
+#proheader {
+  font-size: 30px;
+  color: wheat;
+  font-weight: bold;
+  padding-left: 10px;
+}

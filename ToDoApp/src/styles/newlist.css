@@ -1,0 +1,85 @@
+.newlistbox {
+  background-color: rgba(48, 0, 70, 0.445);
+  height: calc(100vh - 45px);
+  /* mar-top: 45px; */
+  top: 45px;
+  width: 600px;
+  position: fixed;
+  z-index: 2;
+}
+
+.listform {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  left: 23%;
+  top: 50%;
+  transform: translateX(-23%);
+  transform: translateY(-50%);
+  padding: 10px;
+  width: 300px;
+}
+
+#listhead {
+  display: block;
+  color: rgb(112, 167, 255);
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px;
+  padding-top: 2px;
+}
+
+#listinp {
+  width: 90%;
+  border: 0;
+  font-size: 25px;
+  padding: 3px 5px;
+  border-style: solid;
+  border-bottom: 1px solid rgb(2, 0, 2);
+  background-color: rgb(255, 255, 255);
+  color: rgb(44, 4, 70);
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#reddit {
+  color: rgb(255, 8, 90);
+  padding-left: 7px;
+}
+
+#listinp:focus {
+  outline: none;
+}
+
+.listbtns {
+  margin-top: 30px;
+  background-color: chartreuse;
+}
+
+.cancelbtn,
+.addbtn {
+  display: inline;
+  float: right;
+  margin: 5px;
+  cursor: pointer;
+  color: rgb(0, 140, 255);
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.cancelbtn:hover,
+.addbtn:hover {
+  background-color: rgb(189, 255, 113);
+}
+
+.cancelbtn {
+  font-size: 20px;
+  padding: 3px 8px;
+}
+
+.addbtn {
+  font-size: 20px;
+  border: none;
+  padding: 4px 8px;
+  padding-bottom: 3px;
+}

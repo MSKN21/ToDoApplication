@@ -1,0 +1,175 @@
+.tasknavbar {
+  background-color: rgb(8, 4, 77);
+  position: fixed;
+  top: 0px;
+  width: 600px;
+  height: 45px;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.tasksdatabox::-webkit-scrollbar {
+  display: none;
+}
+
+.tasksdatabox {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.tasksdatabox {
+  background-color: rgba(6, 37, 138, 0.596);
+  height: calc(100vh - 45px);
+  padding-top: 45px;
+  overflow-y: scroll;
+}
+
+#formid {
+  padding: 15px;
+  padding-top: 30px;
+}
+
+#label {
+  color: rgb(173, 185, 255);
+  display: block;
+  font-size: 25px;
+}
+
+#inptask {
+  width: 90%;
+  border: 0;
+  font-size: 25px;
+  padding: 3px 5px;
+  border-style: solid;
+  border-bottom: 1px solid white;
+  background-color: rgb(6, 37, 138, 0);
+  color: aliceblue;
+  margin-bottom: 50px;
+}
+
+#inptask:focus,
+.datepick:focus,
+#timeinp:focus,
+#taskselect {
+  outline: none;
+  border-bottom: 3px solid rgb(141, 255, 166);
+}
+
+#datebox {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  margin-bottom: 20px;
+}
+
+.datepick {
+  width: 500px;
+  border: 0;
+  font-size: 22px;
+  padding: 3px 5px;
+  border-style: solid;
+  border-bottom: 1px solid white;
+  background-color: rgb(6, 37, 138, 0);
+  color: aliceblue;
+}
+
+#calicon {
+  cursor: pointer;
+  /* color: rgb(12, 3, 3); */
+  margin-left: 9px;
+}
+
+#caldiv {
+  color: rgb(118, 255, 171);
+  padding: 6px 0px;
+  padding-top: 7px;
+  margin: 0px 6px;
+  border-radius: 50%;
+}
+#caldiv:hover {
+  color: rgb(0, 12, 78);
+  background-color: rgba(0, 255, 200, 0.746);
+}
+
+#timeinp {
+  width: 500px;
+  border: 0;
+  font-size: 22px;
+  padding: 3px 5px;
+  border-style: solid;
+  border-bottom: 1px solid white;
+  background-color: rgb(6, 37, 138, 0);
+  color: aliceblue;
+  margin-bottom: 50px;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  color: blue;
+  cursor: pointer;
+}
+
+#taskselect {
+  width: 500px;
+  border: 0;
+  font-size: 22px;
+  padding: 3px 5px;
+  border-style: solid;
+  border-bottom: 1px solid white;
+  background-color: rgba(6, 37, 138, 0);
+  color: aliceblue;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+#option:hover {
+  background-color: tomato;
+}
+
+option {
+  margin: 40px;
+  background-color: rgb(2, 1, 88);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+#submitbtn {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  padding: 4px 6px;
+  padding-top: 5px;
+  box-shadow: 0px 0px 20px rgba(97, 5, 105, 0.835);
+}
+
+#submitbtn:hover {
+  background-color: rgba(255, 255, 255, 0.822);
+}
+
+#tick {
+  color: rgb(21, 53, 196);
+  font-size: 35px;
+}
+
+#back {
+  color: rgb(111, 255, 130);
+  font-size: 30px;
+  margin-top: 2px;
+  padding: 4px;
+  border-radius: 50%;
+}
+#backbtn {
+  text-align: center;
+}
+
+#back:hover {
+  background-color: rgba(255, 255, 255, 0.705);
+  color: rgb(0, 32, 99);
+}
+
+.taskbarh1 {
+  margin-left: 20px;
+  margin-top: 6px;
+  color: aqua;
+}

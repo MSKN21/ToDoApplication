@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Quicksand";
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+.header {
+  text-align: center;
+}
+
+.main {
+  width: 600px;
+  position: fixed;
+  overflow: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0px;
+  bottom: 0px;
+  overflow-y: scroll;
+}
+
+.main::-webkit-scrollbar {
+  display: none;
+}
+
+.main {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

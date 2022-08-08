@@ -1,0 +1,113 @@
+.listnavbar {
+  background-color: rgb(8, 4, 77);
+  position: fixed;
+  top: 0px;
+  width: 600px;
+  height: 45px;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.listsdatabox {
+  background-color: rgba(6, 37, 138, 0.418);
+  height: calc(100vh - 45px);
+  padding-top: 45px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.forpadding {
+  padding: 14px;
+}
+
+.listsdatabox::-webkit-scrollbar {
+  display: none;
+}
+
+.listbox {
+  background-color: rgba(80, 24, 184, 0.781);
+  margin: 20px 0px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 84% 8% 8%;
+  box-shadow: 0px 0px 18px rgba(133, 13, 127, 0.596);
+  animation: slidein 1s ease-out;
+  -webkit-animation: slidein 1s ease-out;
+}
+
+.listbox:hover {
+  transform: scale(1.01);
+}
+
+#back {
+  color: rgb(111, 255, 130);
+  font-size: 30px;
+  padding: 4px;
+  border-radius: 50%;
+  top: 1px;
+}
+#backbtn {
+  text-align: center;
+}
+
+#back:hover {
+  background-color: rgba(255, 255, 255, 0.705);
+  color: rgb(0, 32, 99);
+}
+
+#listicon {
+  cursor: pointer;
+  /* color: rgb(12, 3, 3); */
+  margin-left: 9px;
+  margin-top: 2px;
+}
+
+#addlistdiv {
+  color: rgb(118, 255, 171);
+  padding: 4px 0px;
+  padding-top: 5px;
+  margin: 0px 8px;
+  border-radius: 50%;
+}
+#addlistdiv:hover {
+  color: rgb(65, 255, 96);
+}
+
+.listbarh1 {
+  margin-left: 20px;
+  margin-top: 6px;
+  color: aqua;
+}
+
+#listh3 {
+  color: aliceblue;
+  font-size: 18px;
+}
+
+#listnumber {
+  color: aliceblue;
+  font-size: 18px;
+}
+
+#listdelbtn,
+#listeditbtn {
+  border-radius: 50%;
+  padding: 0px 0px;
+  cursor: pointer;
+  color: rgb(145, 255, 178);
+}
+
+#delicon,
+#editicon {
+  padding: 4px 8px;
+  margin-top: 3px;
+}
+
+#listdelbtn:hover,
+#listeditbtn:hover {
+  background-color: rgba(255, 255, 255, 0.664);
+  color: rgb(46, 6, 83);
+}

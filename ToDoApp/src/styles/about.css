@@ -1,0 +1,80 @@
+#imgbox2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgba(29, 3, 78, 0.63);
+  border-radius: 8px;
+  margin: 20px 15px;
+  padding: 10px;
+  animation: slidein 1s ease-out;
+  -webkit-animation: slidein 1s ease-out;
+}
+
+#detailbox {
+  font-size: 22px;
+  color: rgb(179, 255, 179);
+  padding-top: 10px;
+}
+
+#dets {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+#deticons {
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+#abouttext {
+  background-color: rgba(29, 3, 78, 0.603);
+  margin: 40px 15px;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  animation: slidein 1s ease-out;
+  -webkit-animation: slidein 1s ease-out;
+}
+
+#linksfollow {
+  margin: 20px 0;
+  float: right;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: rgba(223, 255, 253, 0.418);
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  animation: slidein 1s ease-out;
+  -webkit-animation: slidein 1s ease-out;
+}
+
+#followh4 {
+  font-size: 35px;
+  color: rgb(255, 160, 7);
+}
+#folloeiconbox {
+  padding-top: 10px;
+  padding-left: 25px;
+  width: 200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#iconsinsta,
+#iconsfb,
+#iconsln,
+#iconsgit {
+  font-size: 40px;
+  cursor: pointer;
+  color: rgb(90, 131, 245);
+}
+
+#iconsinsta {
+  color: rgb(138, 58, 185);
+}
+#iconsgit {
+  color: rgb(23, 21, 21);
+}

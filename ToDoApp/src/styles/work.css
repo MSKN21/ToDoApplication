@@ -1,0 +1,97 @@
+.workmaindiv {
+  height: calc(100vh - 95px);
+  padding-top: 45px;
+  overflow-y: scroll;
+  background-color: rgba(6, 37, 138, 0.404);
+}
+
+.workmaindiv::-webkit-scrollbar {
+  display: none;
+}
+
+.workmaindiv {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#mainboxfrpadd {
+  padding: 15px;
+  padding-bottom: 30px;
+  padding-top: 0px;
+}
+
+#allmainheads {
+  color: rgb(146, 255, 136);
+  padding-left: 5px;
+  font-size: 28px;
+}
+
+#addtaskbtn {
+  position: fixed;
+  right: 5px;
+  bottom: 65px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  padding: 6px 9px;
+  padding-top: 8px;
+  box-shadow: 0px 0px 15px black;
+}
+
+#addtaskbtn:hover {
+  background-color: rgba(0, 255, 170, 0.822);
+}
+
+#plus {
+  color: rgb(21, 53, 196);
+  font-size: 30px;
+}
+
+.signbtns {
+  text-align: center;
+  float: right;
+  font-size: 22px;
+  margin: 0 12px;
+  padding: 2px 0;
+  margin-top: 4px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  background-color: rgb(87, 174, 255);
+  height: 30px;
+  border-radius: 3px;
+}
+
+.signbtns:hover {
+  background-color: rgba(87, 174, 255, 0.774);
+}
+
+.navbar2 {
+  background-color: rgb(8, 4, 77);
+  position: fixed;
+  width: 600px;
+  height: 45px;
+  display: grid;
+  grid-template-columns: 10% 40% 20% 20% 10%;
+  z-index: 1;
+}
+
+#titlehead {
+  color: blanchedalmond;
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+#abouticon {
+  font-size: 30px;
+  padding: 5px 6px;
+  color: rgb(55, 255, 178);
+  border-radius: 50%;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+#abouticon:hover {
+  color: rgb(49, 0, 61);
+  background-color: rgba(15, 227, 255, 0.808);
+}

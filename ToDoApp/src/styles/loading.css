@@ -1,0 +1,90 @@
+#loadmainbox {
+  background-color: rgba(31, 5, 54, 0.493);
+  height: calc(100vh - 0px);
+  top: 0px;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#loadingdiv {
+  border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  position: absolute;
+  top: 45%;
+  left: 49%;
+  transform: translate(-49%, -45%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+#emptydiv {
+  /* background-color: aliceblue; */
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 45%;
+  left: 49%;
+  transform: translate(-49%, -45%);
+}
+
+#emptyimage {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(28, 1, 53);
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+#errorimage {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+#emptymsg {
+  color: rgba(255, 179, 116, 0.788);
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+#errorbtn {
+  color: black;
+  background-color: rgb(205, 255, 171);
+  padding: 10px 5px;
+  border-radius: 3px;
+  margin: 5px auto;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+}
+
+#errorbtn:hover {
+  background-color: rgba(160, 222, 135, 0.835);
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

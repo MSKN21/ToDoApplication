@@ -1,0 +1,56 @@
+.quickdiv {
+  position: fixed;
+  float: bottom;
+  bottom: 0;
+  height: 50px;
+  width: 600px;
+  background-color: rgb(8, 4, 77);
+  display: grid;
+  grid-template-columns: 90% 10%;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.514);
+}
+
+#quickinput:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(255, 212, 132);
+  /* animation: slide-in 5s forwards;
+  -webkit-animation: slide-in 5s forwards; */
+}
+
+/* @keyframes slide-in {
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slide-in {
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+} */
+
+#quickinput {
+  width: 100%;
+  border: 0;
+  font-size: 22px;
+  padding: 3px 5px;
+  padding-top: 7px;
+  border-style: solid;
+  border-bottom: 1px solid white;
+  background-color: rgb(8, 4, 77);
+  color: aliceblue;
+  margin-left: 23px;
+}
+
+.quickdivadd {
+  cursor: pointer;
+  text-align: center;
+}
+
+.addbtnquick {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255);
+  padding: 3px 3px;
+  margin-top: 5.5px;
+  font-size: 30px;
+}
